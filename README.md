@@ -4,9 +4,6 @@
 <br/>
 </div>
 <div align="center">
-   <a href="https://github.com/mathrb22">
-      <img alt="Made by mathrb22" src="https://img.shields.io/badge/made%20by-mathrb22-yellow">
-   </a>
    <a href="https://github.com/mathrb22/nlw-journey-nodejs/commits/main">
       <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/mathrb22/nlw-journey-nodejs">
    </a>
