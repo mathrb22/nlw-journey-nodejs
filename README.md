@@ -93,6 +93,18 @@ npm run dev
 
 A API estará disponível em http://localhost:3333.
 
+Para rodar as migrations do banco de dados, execute o comando:
+
+```bash
+npx prisma migrate dev
+```
+
+Para executar o Prisma Studio e visualizar os dados do banco de dados, execute o comando:
+
+```bash
+npx prisma studio
+```
+
 ## 💡 Como contribuir
 
 - Faça um **_fork_** desse repositório;
