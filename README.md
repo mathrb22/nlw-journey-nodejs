@@ -20,6 +20,7 @@
 
 [**Sobre**](#-sobre) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Tecnologias e ferramentas**](#-tecnologias-e-ferramentas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Features**](#-features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Como contribuir**](#-como-contribuir) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
@@ -67,6 +68,41 @@ Este repositório contém o código-fonte original do **backend** do projeto **P
     </td>
   </tr>
 </table>
+
+## ✨ Features
+
+A API deste projeto oferece as seguintes funcionalidades:
+
+### Viagens
+
+✅ `POST /trips`: Cria uma nova viagem.</br>
+✅ `POST /trips/{tripId}/confirm`: Confirma uma viagem existente.</br>
+✅ `PUT /trips/{tripId}`: Atualiza os detalhes de uma viagem.</br>
+✅ `GET /trips/{tripId}`: Obtém os detalhes de uma viagem.</br>
+
+### Participantes
+
+✅ `GET /participants`: Obtém a lista de participantes.</br>
+✅ `GET /participants/{participantId}`: Obtém os detalhes de um participante específico.</br>
+✅ `POST /trips/{tripId}/invites`: Cria um convite para um participante.</br>
+✅ `PATCH /participants/{participantId}/confirm`: Confirma a participação de um participante em uma viagem.</br>
+✅ `DELETE /participants/{participantId}`: Remove um participante. \*</br>
+
+### Atividades
+
+✅ `POST /trips/{tripId/activities`: Cria uma nova atividade.</br>
+✅ `GET /trips/{tripId/activities`: Obtém a lista de atividades.</br>
+✅ `PUT /trips/{tripId/activities/{activityId}`: Atualiza os detalhes de uma atividade. \*</br>
+✅ `DELETE /activities/{activityId}`: Remove uma atividade. \*</br>
+
+### Links
+
+✅ `POST /links`: Cria um novo link.</br>
+✅ `GET /links`: Obtém a lista de links.</br>
+✅ `PUT /links/{linkId}`: Atualiza os detalhes de um link. \*</br>
+✅ `DELETE /links/{linkId}`: Remove um link. \*</br>
+
+> `*` - Novos endpoints adicionados.
 
 ## 🔧 Instalação e execução
 
