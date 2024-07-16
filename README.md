@@ -22,7 +22,7 @@
 [**Tecnologias e ferramentas**](#-tecnologias-e-ferramentas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Features**](#-features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Instalação e execução**](#-instalação-e-execução) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Como contribuir**](#-como-contribuir) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Como contribuir**](#-como-contribuir)
 
 </div>
 
